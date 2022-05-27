@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Team 19 Assignment 2</title>
+<title>Team Profile</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -16,101 +15,184 @@ body {font-size:16px;}
 </head>
 <body>
 
-
-
+<!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Team 19<br>Travel Guides</b></h3>
+    <h3 class="w3-padding-64"><b>Team 19<br>The Travel Guides</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Project Idea</a>
-    <a href="industry.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Industry Data</a>
-    <a href="jobs.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Ideal Jobs</a>
-    <a href="profile.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Profile</a>
-    <a href="machine.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Machine Learning</a>
-    <a href="cybersecurity.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Cybersecurity</a>
-    <a href="robots.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Robots</a>
-    <a href="vehicles.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Autonomous Vehicles</a>
-    <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">IT Work</a>
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Profile</a>
+    <a href="artefacts.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Artefacts</a>
+    <a href="overview.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Overview</a>
+    <a href="aim.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Aim & Goals</a>
+    <a href="plans.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Plans and Progress</a>
+    <a href="roles.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Roles</a>
+    <a href="scope.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Scope and Limits</a>
+    <a href="tools.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tools and Technologies</a>
+    <a href="testing.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Testing</a>
+    <a href="timeframe.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Timeframe</a>
+    <a href="risks.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Risks</a>
+    <a href="pc.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Group Processes and Communication</a>
+    <a href="skills.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skills and Jobs</a>
     <a href="reflection.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Group Reflection</a>
     <a href="a_a.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Agendas & Action Reports</a>
   </div>
 </nav>
 
-
+<!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>The Travel Guides</span>
+  <span>Team Profile</span>
 </header>
 
-
+<!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-
+<!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-
+  <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>Project Idea</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Overview</b></h1>
+    <h1 class="w3-jumbo"><b>Team Profile</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Many people love traveling with friends or family, however, sometimes they are not available, so you must travel by yourself. Traveling by yourself can often be very overwhelming as there are many factors that you need to consider such as money, hotel, and much more. Therefore, we want to make an application that will help the user traveling for the first time or by themselves more enjoyable. This application will consist of programs that will help the user find the cheapest flight to and from their destination and help them to find an affordable place to stay at. The application can also help the user to find fun and affordable activities, it can also recommend foods based on where you are. The application will also share useful information such as the culture and the dos and don'ts when visiting another country to avoid the risk of offending anyone.
-    </p>
   </div>
 
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Motivation</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>The Travel Guides</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>This project idea came to Tommy when he was planning a road trip with my mates last year and he noticed how hard it was, especially when everything is not on one application. They had searched the web for hours until they found a decent and affordable hotel to stay at and they then spent another hour finding a ticket that was cheap as well. Everything was very disorganized, so it was very overwhelming for them. With this application, everything will be in one place, so it is much easier to organize. There are also a lot of people out there who want to travel by themselves but are too scared because of the process and the planning of it, hopefully, this app will encourage them to do it and make the process easier.
-
-<br>There is a large market for this app because a lot of travellers are young, inexperienced, alone, or in a rush. This app will make travelling more accessible to everyone, not only those who are extremely outgoing, organised, and have ample time to plan.
-    </p>
   </div>
 
 
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Description</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Oliver</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>This app is a travel guide that will help the user’s planning experience easier. When the user first opens the app, it will require them to either login or sign up. If the user does not already have an account, it will ask them to make a profile by filling in their details. During the process of making their profile, they will need to verify their ID as well to make sure the user is over 18. Once the user is done making a profile it will take them to the homepage where they can start using the app. Within the app, the user can change their details by clicking on ‘My Profile’ at the top of the application.
-<br>
-<br>On the homepage, the user will find information and news from a different country around the world. When the user scrolls down they will see different events that are happening soon. This will consist of the date and the location of where it is happening. In the top left corner, there will be an option where the user can open and see 5 different sections. First is the ‘homepage’ which is where they initially start. The second section will be ‘flights,’ where it will show the current cheapest ticket around the world. In the third section, there will be a ‘local tip’ from different users around the world, for example, “watch out for the pickpocket in this area” or “try this food at this restaurant”. There would be another section where you submit your experience or tips to other users. In this section you would be able to find 3 options, you can either post a picture or a video and then post a text underneath it. In the fifth section, it will be 'thing to do', where it shows users different activities around the world, such as snowboarding in this location or sightseeing in this location. Lastly, there will be an option underneath where the user can put feedback on how the application can be improved.
-<br>
-<br>When the user wants to start planning their trip, they must press the plus icon in the top right of the application. After that the application would ask the user to put in the location they are headed, then they would need to put in how many people they are traveling with. This will help the program generate the cheapest hotel and flight tickets based on how many people are going. Next, they would choose plane ticket and hotels. After they process their payment, the user will be taken to a new page. This page will contain upcoming events that are happening near the location they are traveling to, it also contains information about the location they are traveling to, such as foods to try out around the areas and places to visit.
-<br>
-<br>If the user has a location to visit in mind but is yet to decide, they can choose to filter the results to show similar locations. This will allow travellers to see lesser-known places, and it could help increase tourism to those areas.
+    <a href="https://0kollie.github.io/COSC1078A1/">Website</a>
+    <p>Name: Hoang Vo (Oliver)
+      <br>Student number: s3906188
+      <br>Email address: s3906188@student.rmit.edu.au
     </p>
-    <img src="pic1.png" alt="home page" style="float:left;width:500px;height:600px;">
-    <img src="pic2.png" alt="menu" style="width:500px;height:600px;">
+    <p>
+      Oliver loves watching anime and reading manga. His favourite anime is Mob Psycho 100, and his favourite manga is Kingdom. Other anime and manga that he likes includes Gurren Lagann, Gintama, Hunter x Hunter, Fate Zero, Berserk, One Piece, One Punch Man and many more.  
+<br>During his time in High school, Oliver was very interested in sports and fitness. He used to be in his school’s Taekwondo club and participated in many tournaments. He also took part in cross country where he managed to make it to states. During VCE Oliver stopped training due to his studies and after VCE, he has already lost his habit of training in fitness and became lazy and washed up. However, he is currently trying to get back in fitness. 
+Oliver loves playing rpg style and dungeon games. He plays a lot of Pokémon, Moonlighter, Soul Knight and his favourite game, Undertale. He plays a couple of multilayer games with his friends such as Super Smash Bros Ultimate and Minecraft. He tried playing League of Legends, but the learning curve was way too high, and he could not do it. Oliver also likes playing tabletop games and card games such as Coup, Exploding Kittens, Unstable Unicorns etc.</p>  
+<p><strong>IT experiences and interest  </strong>
+<br>Oliver has never been good with computers but has always been interested and curious in them. Whenever he learns something new about computers either from the internet or from a friend who is a computer whiz, he would be amazed and be like “wow I didn’t even know that was possible.” IT requires constant learning and education as there is constant new developments. He also enjoys helping his mum and grandmother with computers and IT problems to the best of his limiting abilities. Learning IT would give him the knowledge and skills to help make other’s jobs easier. 
+<br>When Oliver was young, he played a lot of Minecraft and would watch lots of mod showcases which made him want to get mods himself. Oliver would usually ask his father to get the mods for him, but after he moved to Sydney, Oliver learned how to get mods for Minecraft and other games via YouTube. Being able to get mods made Oliver feel very accomplished and he think that had an influence on his interest in IT. 
+Playing a lot of games in his childhood made Oliver very interested in them. Becoming a game developer would be very nice for him, but anything that has to do with bringing ideas to life through IT is very interesting to Oliver. </p>
+      <p><br><strong>Career Plan</strong>
+      <br>1. For me to be a web designer I must complete my Bachelor of Information of technology, which will take me 3 years to complete. This degree will me to understand the basic of front end-coding, which can help me to build a website
+
+<br>2. Step 2 is to hone your craft by gaining more experience and keep on learning design techniques and theories. Since design style and preferences changes over time, it is important to a variety of skills set that can be apply to different work environment
+
+<br>3. Get a web design industry certification, although it is not necessary to have one, it will greatly improve on my career prospects. This certification will prove that I have a good knowledge and proficiency in crucial areas of the web design industry.
+
+<br>4. The last step for me is to build a personal brand. By having good portfolio of past projects, I will be able to show potential employers. This will allow me to have more connection will people, allowing me to have more job opportunities. Since I will be very new to this, joining industry or organizations relating to web designer will gain me more experience in building in my own brand. </p>
   </div>
-
-
 
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Tools & Technology</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Claire</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Would need a computer that is strong enough to run programs such as JavaScript, and Quixy. Quixy will allow us to mind map what the application will look like, and JavaScript will help us build the program itself. We will also need a book and pen to design a mock-up of the application. It will also be important to have some users test the app and give feedback. Another technology that can be used to, would be sharing data from a database such as google maps to implement a map which will show the directions for the user to take in order to arrive at the location.
+    <a href="https://jfiaohgijak.github.io">Website</a>
+    <p>Name: Claire Cheffings
+      <br>Student number: s3943096
+      <br>Email address: s3943096@student.rmit.edu.au
     </p>
-  </div>
+    <p>
+      Claire is an 18 year old who graduated high school last year born in Melbourne to parents of Cypriot and British heritage. She enjoys many form of rock climbing, although she is currently focusing on bouldering; a shorter, more intense form. She aims to attend the Youth National competition in bouldering in early June. </p>
+<p><strong>IT experiences and interest </strong>
+<br>Claire has always been curious about technology and wanted to know how things worked but her interest in IT as a career probably started in year 10 and increased in year 11 when she did cybersecurity and coding courses online when she finished my online schoolwork early. She is particularly interested in cybersecurity/penetration testing or system administration as a career but is also interested in developing things. In year 11 Claire played around a bit with html and css and it didn't turn out completely horrible, but it wasn't great. Claire chose RMIT because it is more convenient to access than other universities such a Monash and she didn't even check the commuting time differences because she would prefer 45 minutes on a train over a tram or goodness forbid, having to change busses or something in the middle, even if it only took 20 minutes. She was also attracted to how job ready RMIT makes its graduates, because from my research it seemed that RMIT is more practical while fancy places like Melbourne don't teach the students how to do jobs. Claire is not sure yet what IT electives she will chose in the coming semesters, but she think she will start with something to do with security.
+ </p>
+      <p>
+        <br><strong>Career Plan</strong>
+        <br>1. Complete Bachelor of Information Technology. As shown in the picture from Open Colleges (2022), most current IT security or systems administration professionals have at least a diploma or advanced diploma (open colleges, 2022). Getting a bachelor's degree instead of a diploma could help me get hired.
 
+<br>2. It could be helpful to gain extra qualifications such as a Certified Ethical Hacker (CEH) certificate.
+
+<br>3. Gaining experience working in cybersecurity or a related field will be very valuable. I will need to get an entry-level position where I can learn about the workings of the industry.
+      </p>
+      <img src="cybercareer.png" alt="graph showing the percentage of cybersecurity professionals with different levels of education">
+  </div>
 
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Skills Required</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Matthew</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Knowledge of front-end coding for designing and developing an app is required. Also need to know how to operate programs such as Quixy. Having great teamwork, communication and problem-solving skills will also be important as most of the time you will be working in a team. While getting programming software is easy because RMIT will provide them to you, obtaining the skills to operate these programs will be time-consuming, but it will be worth it because you will gain valuable and in-demand skills. Teamwork and communication skills can be obtained through doing group activities in class. Furthermore, by obtaining database skills and understanding how to use programs like Bigtable, (developed and used by Google) this can further enhance the usability of the map within the program and potentially making future tasks such as rolling out updates, fixing bug issues, etc, a much easier process.
+    <a href="https://mrottura23.github.io/Assignment-1-FINAL/">Website</a>
+    <p>Name: Matthew Rottura
+      <br>Student number: s3948878
+      <br>Email address: s3948878@student.rmit.edu.au
     </p>
+    <p>Matthew Rottura is an 18-year-old born and raised in Australia. He graduated from Parade College in 2021 and then enrolled into a Bachelor of Information Technology at RMIT. Matthew has always had an interest in IT since early in high school, buildings IT systems and learning about the various IT work his father and uncle, who also studied this exact course, during his earlier years. In his free time, Matthew enjoys go-karting and gaming with his mates and is a very avid supporter in Formula 1 and AFL. </p>
+<p><strong>IT experiences and interest </strong>
+<br>During Matthew’s early years of high school, he began to think about what really interest him and how he could relate that to his further studies after high school. As a casual gamer at the time, Matthew started to notice that he was really interested in computers and networks, this interest started with the casual Linus Tech Tips videos on how to build a computer which led to himself specing, building and set up the required network for his very own gaming rig. In addition to this at home interest, Matthew’s high school also provided a Software development class during VCE which he performed very well in and topped the class in most assessments which further enhanced his interest in IT. Finally, after sharing a memorable experience of building a PC with his father and uncle, Matthew continues to learn about a vast array of useful tools and tricks that he can use to further excel his knowledge in information technology, from professionals in their respective fields being program management and network administration. 
+      </p>
+      <p>
+      <br>1. The first step to become a Network Administrator is to complete my Bachelor of Information of technology, by obtaining this qualification, it give myself the best opportunity to demonstrate the various skills I have learnt for Cisco networks. 
+<br>2. Gaining experience within a work environment and various other computer systems will give myself the ability to understand and interact with how different computer work within a network. This experience will then be used to apply for various  
+<br>3. Obtain relevant IT certificates such as Windows, Novell and Cisco that will be useful in network administration  
+<br>4. Undertake professional development to ensure skills are up to date with an ever evolving industry trends 
+      </p>
   </div>
-
-
 
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Outcome</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Andy</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>If the project is successful, the outcome would be that people will have a more enjoyable experience planning their trip and saving their money at the same time. So, when people plan their first trip it will not be as overwhelmed as all the information, they need will be organized into one spot. Not only that they would also know what activities to do in the areas as the application would recommend them. This will encourage people to go on trips more and experience diverse types of culture.
-
-<br>The quality of the users’ travel experience will be improved because they will be able to enjoy the experience and be in the moment more without having to stress as much about planning. It will also make travelling more accessible to many people who may have been too nervous to go otherwise, opening them to a literal world of possibilities.
+    <a href="https://s3949120.github.io">Website</a>
+    <p>Name: Andy
+      <br>Student number: s3948878
+      <br>Email address: s3948878@student.rmit.edu.au
+      <br>
     </p>
+    <p>Andy is a recent graduate from Bray brook college, he is 18 years old and was born in Australia. Both of his parents are from Vietnam and fled to Australia due to war. He can speak 2 languages but is also trying to learn Japanese in his spare time. Some of Andy’s hobbies consisted of playing sports and video games. Andy’s interests in IT stem from his older brother who is the computer guy in the family. Andy is trying to pursue a job in software developer field or cybersecurity and is undecided in which pathway he wants for his career.
+      </p>
+      <p><strong>Career Plan</strong>
+        <br>
+
+<br>1. To become a software developer, I will need to complete my Bachelor of Information of Technology, during this time I will try and develop my coding as this will be a big part of my job.
+
+<br>2. I will need to build my non-technical skills as well as this allow my soft skills to improve as well as being a better team player in a team environment.
+
+<br>3. I will also need to learn technical skills such as SQL which is used for databases in a program.
+
+<br>4. After following these steps, I will begin to apply for positions that will fit my role and repeat this until I find a job.
+      </p>
   </div>
+
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Tommy</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <a href="https://Tommy-ngo2811.github.io">Website</a>
+    <p>Name: Tommy Ngo
+      <br>Student number: s3900254
+      <br>Email address: s3900254@student.rmit.edu.au
+    </p>
+    <p>
+      Tommy is 19-year-old, born in Australia but was raise in Vietnam. He graduates from Simonds Catholic College in 2020.After that he study biotechnology at RMIT but decided to drop out because it wasn’t for him, instead he chooses IT as his career path. He like to travel and in his spare time, he plays guitar or games with his friends. Some of his favourite game and places to travel to is Elden Ring and Japan. When Tommy travelled to Japan, within three days there he has already felts in love with the culture, peoples, foods, sceneries and everything they offers, from there he just wants to experience what other country and culture got to offer as well. Unfortunately, Tommy couldn’t travel much for the past 3 year because of covid however he already planning trip such as Japan again, Canada and Korea for this year when border start easing up. </p>
+<p><strong>IT experiences and interest </strong>
+<br>Tommy interest in IT was sparked in year 12 by watching a youtuber name Michael Reeve. Who is make “comedy-tech” video. He was inspired by him, watching him make Tommy realise that IT is not all about data and working on a computer. But it also can be very fun and practical. Other than that Tommy have not had much exposure to IT or have any real IT experience.   </p>
+<p><strong>Career Plan</strong>
+  <br>1. For me to be a web designer I must complete my Bachelor of Information of technology, which will take me 3 years to complete. This degree will me to understand the basic of front end-coding, which can help me to build a website   
+<br>2. Step 2 is to hone your craft by gaining more experience and keep on learning design techniques and theories. Since design style and preferences changes over time, it is important to a variety of skills set that can be apply to different work environment  
+<br>3. Get a web design industry certification, although it is not necessary to have one, it will greatly improve on my career prospects. This certification will prove that I have a good knowledge and proficiency in crucial areas of the web design industry. 
+<br>4. The last step for me is to build a personal brand. By having good portfolio of past projects, I will be able to show potential employers. This will allow me to have more connection will people, allowing me to have more job opportunities. Since I will be very new to this, joining industry or organisations relating to web designer will gain me more experience in building in my own brand. </p>
+  </div>
+
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Career Plans</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>
+       
+    </p></div>
+
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Group Processes</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>
+      <strong>How well did your group work together in Assignment 2?  </strong>
+<br>Our team did well in communication and organisation. We were able to efficiently divide each task to each week and then assign each task to a person. This was very helpful to us as each person would know what they are doing and there would be a deadline for each week which motivate us to finish our work faster. Another thing we did very well as a group was communicating on a range of different platforms; Facebook, Teams, etc with each other. If one of us could not make it to a meeting we would let the rest of the member know, or if one of us would need help or clarification they would reach out. 
+<br><strong>Will you be introducing any changes in process for Assignment 3?  </strong>
+<br>During Assignment 3, we will try and improve the attendance of meetings online, so we all have a clear understanding what needs to be done and what we are falling behind on. Setting up meeting when we all join, and work collaboratively will be newly introduced to try and boost productivity and concentration on urgent tasks rather than going off and getting distracted.  
+    </p></div>
 
 
 </div>
